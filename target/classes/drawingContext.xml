@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- <bean id="traingle" class="com.kshrd.model.Traingle">
+		<property name="type" value="Traingle"></property>
+	</bean> -->
+	
+	<!-- Drawing drawing = new Drawing(traingle); -->
+	<!-- <bean id="drawing" class="com.kshrd.service.Drawing">
+		<constructor-arg ref="traingle"></constructor-arg>
+	</bean> -->
+		 
+	<!-- <bean id="drawing" class="com.kshrd.service.Drawing">
+		<property name="traingle" ref="traingle"></property>
+	</bean> -->
+	
+</beans>
